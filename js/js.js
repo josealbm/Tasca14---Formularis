@@ -1,5 +1,5 @@
 var xhttp = new XMLHttpRequest();
-var url = "https://rawgit.com/MariaAdrover/LM_PRACTICA5/master/xml/formulari.xml";
+var url = "https://raw.githack.com/josealbm/Tasca14---Formularis/master/xml/preguntes.xml";
 var urlJavi = 'https://rawgit.com/shamshir/Prueba/master/questions.xml';
 var xmlDoc = null;
 var preguntaXML;
