@@ -18,13 +18,13 @@
 
   <question>
     <type>select</type>
-      <title>Qui va dirigir Le voyage dans la Lune (1902) considerada com una de les primeres pel·lícules amb efectes especials?</title>
+      <title>Qui va dirigir <em>Le voyage dans la Lune (1902)</em> considerada com una de les primeres pel·lícules amb efectes especials?</title>
 		      <option>Fritz Lang</option>
     			<option>Georges Méliès</option>
     			<option>Alice Guy</option>
     			<option>Charles Pathé</option>
    				<option>Steven Spielberg</option>
-          <answer>2</answer>  			
+          <answer>1</answer>  			
   </question>
   <question>
       <type>radio</type>
@@ -33,7 +33,7 @@
   			<option>El Gran Dictador</option>
   			<option>Tenderloin</option>
   			<option>El acorazado Potemkin</option>
-  		  <answer>1</answer>
+  		  <answer>0</answer>
   </question>
   <question>
     <type>select</type> 
@@ -42,10 +42,10 @@
       <option>1950</option>
       <option>1952</option>
       <option>1959</option>
-      <answer>3</answer>
+      <answer>2</answer>
   </question>
 
-  <question id='q5'>
+  <question>
     <type>multiple</type>   
       <title>Els premis més importants del món del cinema són els Oscars. Hi ha tres pel·lícules que ténen el récord amb 11 estatuetes, saps quines són?</title>
     		<option>Ben-Hur (1959)</option>
@@ -60,12 +60,12 @@
         <answer>2</answer>
         <answer>4</answer>
   </question>
-  <question id='q6'>
+  <question>
   	<type>text</type>
       <title>Seguint amb els premis, sabries dir-me com se nomen els guardons de l'acadèmia britànica?</title>
   		<answer>BAFTA</answer>
   </question>	
-  <question id='q7'>
+  <questio>
     <type>checkbox</type>
         <title>Una part molt important d'una pel·lícula és la seva música, d'aquesta llista de persones, selecciona als compositors que han rebut nominacions o premis per les seves bandes sonores</title>
   		  <option>John Williams</option>
@@ -96,9 +96,9 @@
         <answer>10</answer>
         <answer>14</answer>
   </question>
-	<question id='q8'>
+	<question>
     <type>radio</type>
-      <title>En quant als directors de cine n'hi ha de mítics a diferents estils. Un dels més influents va ser un anglés que inclús va tornar a gravar alguna de les seves pel·lícules quan va arribar a Hollywood. Va ser el responsable de films com <em>Psicosis (1960)</em>, <em>Vértigo (1958)</em>, <em>Con la muerte en los talones</em>, <em>La ventana indiscreta (1954)</em>, <em>Los pájaros (1963)</em> i moltes més (va fer més de 50 pel·lícules). Saps de qui esteim xerrant?</title>
+      <title>En quant als directors de cine n'hi ha de mítics a diferents estils. Un dels més influents va ser un anglés que inclús va tornar a gravar alguna de les seves pel·lícules quan va arribar a Hollywood. Va ser el responsable de films com Psicosis (1960), Vértigo (1958), Con la muerte en los talones, La ventana indiscreta (1954), Los pájaros (1963) i moltes més (va fer més de 50 pel·lícules). Saps de qui esteim xerrant?</title>
 		 	  <option>Kenneth Branagh</option>
   			<option>Alfred Hitchcock</option>
   			<option>Orson Welles</option>
@@ -107,7 +107,7 @@
   			<option>Hugh Grant</option>
   		  <answer>1</answer>
   </question>
-  <question id='q9'>
+  <question>
    <type>multiple</type>
       <p>Hi ha poques pel·lícules que hagin aconseguit superar els mil milions de dólars de recaudació (36, actualment). Quin és el film que té ara mateix el récord de recaudació? I el récord d'entrades venudes? (Pensau que el preu de l'entrada ha anat pujant amb el temps)</p>
   		<options>
@@ -125,7 +125,7 @@
         <answer>5</answer>
    		</options>		
   </question>
-  <question id='q10'>
+  <question>
     <type>text</type>
   	<title>No sempre ha de ser tot bon cine. Hi ha un director que va estar considerat com el pitjor director de cine del món. Al 1994 el director <b>Tim Burton</b> va dirigir una aclamada pel·lícula sobre la seva vida on <b>Johnny Depp</b> va interpretar el paper principal. Saps de qui xerram?</title>
     	<answer>Ed Wood</answer> 		 
