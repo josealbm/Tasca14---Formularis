@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+	<title>Examen de cine</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta property="og:url" content="xml/preguntes.xml">	
+	<script src="js/js.js"></script>
+</head>
+<body>
+ <header>
+    <h1>Història del cinema</h1>
+  </header>
+    <form id = 'formulario'>
+    	<div class="columna1">
+
+		<fieldset class='pregunta' id="p1">
+			<legend>Pregunta 1</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/cinematografo.jpg" alt="imatge del cinematògraf">
+		</fieldset>
+
+		<fieldset class='pregunta' id="p2">
+			 <legend>Pregunta 2</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/lune.jpg" alt="Le voyage dans la Lune">
+			<select id = 'foto1' class='selCSS'>
+				<option class = "respuesta" value = '0' selected>Selecciona la respuesta correcta...</option>
+			</select>
+		</fieldset>
+
+		<fieldset class='pregunta' id = 'p3'>
+			<legend>Pregunta 3</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/jazz.jpg" alt="El Cantor de Jazz">
+		</fieldset>
+
+		<fieldset class='pregunta' id = 'p4'>
+			<legend>Pregunta 4</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/singinintherain.jpg" alt="Cantando Bajo la Lluvia">
+			<select id = 'foto2'>
+				<option class = "respuesta" value = '0' selected>Selecciona la respuesta correcta...</option>
+			</select>
+		</fieldset>
+
+		<fieldset class='pregunta'>
+			<legend>Pregunta 5</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/oscars.jpg" alt="Oscars">
+			<select multiple='multiple' id = 'mult'></select>
+		</fieldset>
+	</div>
+	<div class="columna2">
+		<fieldset class='pregunta'>
+			<legend>Pregunta 6</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/bafta.jpg" alt="BAFTAs">
+			<input type = 'text' placeholder = 'Escribe tu respuesta aquí...'/>
+		</fieldset>
+
+		<fieldset class='pregunta'>
+			<legend>Pregunta 7</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/johnwilliams.jpg" alt="John Williams">
+		</fieldset>
+
+		<fieldset class='pregunta'>
+			<legend>Pregunta 8</legend>
+			<img src="imatges/psicosis.jpg" alt="Psycho">
+			<h4 class = 'title'>&nbsp;</h4>
+		</fieldset>
+
+		<fieldset class='pregunta'>
+			<legend>Pregunta 9</legend>
+			<img src="imatges/taquilla.jpg" alt="taquillas">
+			<h4 class = 'title'>&nbsp;</h4>
+			<select multiple='multiple' id = 'mult'></select>
+		</fieldset>
+
+		<fieldset class='pregunta'>
+			 <legend>Pregunta 10</legend>
+			<h4 class = 'title'>&nbsp;</h4>
+			<img src="imatges/edwood.jpg" alt="Ed Wood">
+			<input type = 'text' placeholder = 'Escribe tu respuesta aquí...'/>
+		</fieldset>
+		<fieldset id='submit'>		
+			<input type = 'submit' id = 'botonSubmit' value = 'CORREGIR'>
+		</fieldset>
+	</div>
+	</form>
+	<div id = 'pie'>&#169;</div>
+	<div id = 'crono'><img src = 'img/imgL.png' alt = 'tiempo'/><span id = 'cronoN'>3:00</span></div>
+	<div id = 'nota'>
+		<div id = 'comentariosNota'>&nbsp;</div>
+	</div>
+</body>
+</html>
