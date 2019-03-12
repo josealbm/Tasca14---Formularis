@@ -8,7 +8,7 @@ body {
 header {
 	background: url(../imatges/celluloid.jpg) repeat-x;
 	height: 100%;
-	background-size: 15%;
+	background-size: 35%;
 	
 }
 header h1 {
@@ -65,15 +65,10 @@ textarea {
 	column-count: 2;
 }
 
-.columna1 {
-	float: left;
-	width: 45%;
-	margin-left: 20px;
-}
-.columna2 {
-	float: right;
-	width: 45%;
-	margin-right: 20px;
+.columna1, .columna2 {
+		float: none;
+		width: 100%;
+		margin: 0;
 }
 legend {
 	background: url(../imatges/celluloid.jpg);
@@ -83,3 +78,4 @@ legend {
 #caixaresize{
 	width: 40%;
 }
+
